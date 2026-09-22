@@ -1,6 +1,6 @@
 # Fast Typing Practice — CS50x Final Project
 
-## [Live-Demo:] (https://kiromorcos.github.io/Fast-Typing-Practice-/)
+## Live-Demo: (https://kiromorcos.github.io/Fast-Typing-Practice-/)
 
 ## Overview
 
@@ -141,7 +141,7 @@ A mapping system ensures keys highlight properly whether pressed physically or v
 
 ## How to Run
 
-Simply open [](https://kiromorcos.github.io/Fast-Typing-Practice-/) in any browser and start fast typing practice. 🤩🤩
+Simply open [] (https://kiromorcos.github.io/Fast-Typing-Practice-/) in any browser and start fast typing practice. 🤩🤩
 
 ## Conclusion
 
