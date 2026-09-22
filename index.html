@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fast Typing Practice</title>
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+  <div class="app" role="application" aria-label="Fast typing practice">
+    <div class="metrics" aria-hidden="false">
+      <div class="metric" aria-live="polite">
+        <div class="label">WPM</div>
+        <div id="wpm" class="value">0</div>
+      </div>
+
+      <div class="metric" aria-live="polite" style="text-align: center;">
+        <div class="label">Accuracy</div>
+        <div id="accuracy" class="value">100%</div>
+      </div>
+
+      <div class="controls" aria-hidden="true">
+        <button id="restart" class="btn">Restart</button>
+        <button id="themeToggle" class="btn">Dark Mode</button>
+      </div>
+    </div>
+
+    <div class="typing-area" id="typingArea" tabindex="0" role="textbox" aria-label="Type the words shown">
+      <div class="words" id="wordsContainer" aria-live="polite"></div>
+    </div>
+
+    <div class="keyboard" id="keyboard" aria-hidden="false">
+      <!-- rows will be rendered by index.js -->
+    </div>
+  </div>
+
+<script src="./index.js"></script>
+</body>
+</html>
